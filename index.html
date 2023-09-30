@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Uso de Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Spotify Web</title>
+
+    <!-- referencia al archivo de estilos -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="encabezado">
+
+        <!-- Contenedor donde estará todo el encabezado, Logo y NavBar -->
+        <div class="containerEncabezado">
+
+            <!-- Contenedor donde estará el ícono del Logo y el Texto -->
+            <div class="containerlogoSpotify">
+
+                <!-- Icono del Logo -->
+                <a href="https://open.spotify.com/intl-es" target="_blank">
+                    <box-icon class="logoImg" name='spotify' type='logo' color='#ffffff' size="48px"></box-icon>
+                </a>
+
+                <!-- Texto del Logo  -->
+                <a href="https://open.spotify.com/intl-es" target="_blank">
+                    <p class="TextLogo">Spotify</p>
+                </a>
+
+            </div>
+
+            <!-- Contenedor donde estará la NavBar -->
+            <div class="ContainerNavbar">
+                <nav class="NavBar">
+                    <a class="LeftSel" href="./index.html">Premium</a>
+                    <a class="LeftSel" href="#">Ayuda</a>
+                    <a class="LeftSel" href="#"> Descargar</a>
+                    <span class="espaciador">|</span>
+                    <a class="RightSel" href="#">Registrarse</a>
+                    <a class="RightSel" href="#">Iniciar sesión</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="mainPrincipal">
+        <section class="seccionOferta">
+            <div class="textoYbtn">
+                <h1 class="texto1__Oferta">Termina pronto: $0.00 por 3 meses de Premium</h1>
+                <p class="texto2__Oferta">No te pierdas la música sin anuncios, la reproducción en modo</p>
+                <p class="texto2__Oferta parrafo2">offline y mucho más. Cancela cuando quieras.</p>
+                <p class="texto2__Oferta parrafo2__Oferta">La oferta termina en 2 d: 6 h: 39 min.</p>
+                <a class="obtenerMeses" href="#">Obtén 3 Meses Por $0.00</a>
+                <span><a class="verPlanes" href="#">Ver Planes</a></span>
+                <p class="terminosCondiciones">Solo para el plan Individual. Después, cuesta $129.00 al mes. <a class="TerminosCondicionesLink" href="https://www.spotify.com/mx/legal/premium-promotional-offer-terms/">Se aplican Términos y Condiciones</a>. Oferta disponible solo para usuarios que todavía no han probado Premium. La oferta termina el 12/9/23.</p>
+            </div>
+            <div class="containerOfertaImg">
+                <img class="ofertaImg" src="./assets/images/SpotifyPremium.png" alt="Spotify Premium">
+            </div>
+        </section>
+        <section class="CambiaPremium">
+            <h1 class="TituloCambiaPremium">¿Por qué Cambiarte a Premium?</h1>
+        </section>
+
+        <section class="planesPremiun">
+            <h1 class="TituloPlanesPremiun">Elige tu plan Premium</h1>
+            <p class="parrafoPlanPremium">Escucha contenido sin límites en tu teléfono, altavoces y otros dispositivos.</p>
+            <div class="containerImagenFormaPago">
+                <img class="formasDePagoImg" src="./assets/images/FormasDePago.png" alt="Formas de Pago">
+            </div>
+
+            <div class="tiposPlanes">
+                <article class="planIndividual">
+                    <p> <span class="parrafo1Article">1 mes gratis con suscripción</span> </p>
+                    <p> <span class="parrafo2Article">Un pago único disponible</span> </p>
+                    <p class="parrafo3_1Article"> <span class="parrafo3Article">Individual</span> </p>
+                    <div class="containerParrafo4Article">
+                        <p> <span class="parrafo4Article">$129.00/al mes después del período de la oferta</span> </p>
+                    </div>
+                    <p class="parrafo5_1Article"> <span class="parrafo5Article">1 cuenta</span> </p>
+                    <hr>
+                    <div class="containerTextParrafo6">
+                        <div class="containerIcon">
+                            <p> <span class="parrafo6icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+                                <g transform="translate(38.4,38.4) scale(0.7,0.7)"><g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M28.28125,6.28125l-17.28125,17.28125l-7.28125,-7.28125l-1.4375,1.4375l8,8l0.71875,0.6875l0.71875,-0.6875l18,-18z"></path></g></g></g>
+                                </svg></span> </p>
+                        </div>
+                        <div class="containerParrafo6Article">
+                            <p> <span class="parrafo6Article">Escucha música sin anuncios</span> </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="planEstudiantes">
+                    <p> <span class="parrafo1Article">1 mes gratis con suscripción</span> </p>
+                    <p> <span class="parrafo2Article">Un pago único disponible</span> </p>
+                    <p class="parrafo3_1Article"> <span class="parrafo3Article">Estudiantes</span> </p>
+                    <div class="containerParrafo4Article">
+                        <p> <span class="parrafo4Article">$69.00/al mes después del período de la oferta</span> </p>
+                    </div>
+                    <p class="parrafo5_1Article"> <span class="parrafo5Article">1 cuenta</span> </p>
+                    <hr>
+                </article>
+
+
+                <article class="planDuo">
+                    <p> <span class="parrafo1Article">1 mes gratis con suscripción</span> </p>
+                    <p> <span class="parrafo2Article">Un pago único disponible</span> </p>
+                    <p class="parrafo3_1Article"> <span class="parrafo3Article">Duo</span> </p>
+                    <div class="containerParrafo4Article">
+                        <p> <span class="parrafo4Article">$169.00/al mes después del período de la oferta</span> </p>    
+                    </div>
+                    <p class="parrafo5_1Article"> <span class="parrafo5Article">2 cuentas</span> </p>
+                    <hr>
+                </article>
+
+                <article class="planFamiliar">
+                    <p> <span class="parrafo1Article">1 mes gratis con suscripción</span> </p>
+                    <p> <span class="parrafo2Article">Un pago único disponible</span> </p>
+                    <p class="parrafo3_1Article"> <span class="parrafo3Article">Para la familia</span> </p>
+                    <div class="containerParrafo4Article">
+                        <p> <span class="parrafo4Article">$199.00/al mes después del período de la oferta</span> </p> 
+                    </div>
+                    <p class="parrafo5_1Article"> <span class="parrafo5Article">Hasta 6 cuentas</span> </p>
+                    <hr>  
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+</html>

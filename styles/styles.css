@@ -1,0 +1,341 @@
+/* Aplica para toda la página  */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/***************** Diseño de todos los componentes del encabezado *******************/
+.encabezado {
+    background-color: black;
+    height: 82px;
+    margin: -10px -8px;
+    margin-bottom: 0;
+    display: block;
+}
+
+.containerEncabezado {
+    margin: 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.containerlogoSpotify {
+    display: flex;
+    height: 80px;
+}
+
+.logoImg {
+    padding: 17px;
+    width: 65px;
+    height: 65px;
+    text-decoration: none;
+}
+
+.TextLogo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-left: 1.5px;
+}
+
+.ContainerNavbar {
+    padding: 33px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.NavBar a {
+    font-size: 15px;
+    padding: 33px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavBar a:hover {
+    color: #1DB954;
+}
+
+.espaciador {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.RightSel {
+    color: #CCCCCC;
+}
+
+/******************** Inicia todo el main ******************/
+
+/* Diseño de todos los componentes de la seccion de oferta */
+.seccionOferta {
+    margin: 0% -8px;
+    margin-bottom: 0;
+    background-color: #A1248B;
+    height: 490px;
+    display: flex;
+}
+
+.textoYbtn {
+    margin-left: 190px;
+    width: 700px;
+}
+
+.texto1__Oferta {
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.texto2__Oferta {
+    font-size: 24px;
+    font-weight: 400;
+    height: 28px;
+}
+
+.parrafo2 {
+    font-size: 24px;
+    margin-top: -14px;
+    height: 28px;
+    margin-bottom: 0px;
+}
+
+.parrafo2__Oferta {
+    padding-top: 22px;
+    margin-bottom: 38px;
+}
+
+.obtenerMeses {
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 255px;
+    height: 33px;
+    font-weight: 600;
+    border-radius: 500px;
+
+}
+
+.obtenerMeses:hover {
+    position: static;
+    background-color: rgba(0, 0, 0, 1);
+    transform: scale(1.03);
+}
+
+.verPlanes {
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(161, 36, 139, 1);
+    border: 2px solid #ffffff;
+    border-radius: 500px;
+    width: 140px;
+    height: 31px;
+    font-weight: 600;
+    padding-top: 13px;
+    margin-left: 2px;
+
+}
+
+.verPlanes:hover {
+    position: static;
+    background-color: rgba(141, 16, 119, 1);
+    transform: scale(1.02);
+}
+
+.terminosCondiciones {
+    width: 650px;
+    line-height: 1.5;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 0.6875rem;;
+}
+
+.TerminosCondicionesLink {
+    text-decoration: underline;
+}
+
+.containerOfertaImg {
+    display: inline-block;
+}
+
+.ofertaImg {
+    width: 380px;
+    margin-left: 50px;
+    padding-top: 55px;
+}
+
+.TituloCambiaPremium {
+    margin: 20px 10px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.planesPremiun {
+    margin-top: 60px;
+    background-color: #efefef;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.TituloPlanesPremiun {
+    margin: 20px 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px;
+    display: block;
+}
+
+.parrafoPlanPremium {
+    color: black;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.containerImagenFormaPago {
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.formasDePagoImg {
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.tiposPlanes {
+    display: flex;
+    justify-content: space-between;
+    padding-left:  200px;
+    padding-right: 200px;
+}
+
+.tiposPlanes article {
+    width: 269px;
+    height: 701.6px;
+    text-align: start;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.parrafo1Article {
+    background-color: #0d72ea;
+    padding: 4px 8px;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.parrafo2Article {
+    color: #0d72ea;
+    border: 1px solid #0d72ea;
+    padding: 4px 8px;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 14px;;
+    font-weight: 550;
+}
+
+.parrafo3_1Article {
+    margin: -5px 1px;
+    margin-bottom: -10px;
+}
+
+.parrafo3Article {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0px 10px 20px;
+}
+
+.containerParrafo4Article {
+    margin: 0px 0px 0px 20px;
+}
+
+.parrafo4Article {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0px;
+}
+
+.parrafo5_1Article {
+    margin-top: -10px;
+    margin-bottom: 23px;
+}
+
+.planIndividual .parrafo5Article {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 10px 19px;   
+}
+
+.planEstudiantes .parrafo5Article {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 10px 19px;   
+}
+
+.planDuo .parrafo5Article {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 10px 20px;   
+}
+
+.planFamiliar .parrafo5Article {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 10px 20px;   
+}
+
+.tiposPlanes article hr {
+    width: 227px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.containerTextParrafo6 {
+    margin-left: 20px;
+    display: flex;
+}
+
+.parrafo6icon {
+    font-weight: 100;
+}
+
+.parrafo6Article {
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+
